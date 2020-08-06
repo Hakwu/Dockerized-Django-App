@@ -10,4 +10,4 @@ Pour lancer l'application :
 
 - Il y a deux points à souligner :
 * Il n'y a pas de page d'accueil. Il faut directement accéder au lien http://localhost:8000/register pour s'inscrire, on est ensuite redirigé dans la page de connexion.
-* On peut bien modifier l'adresse mail (dans la base de données) cependant, l'affichage sur la page se modifie qu'après un rechargement de la page.
+* On peut bien modifier l'adresse mail (dans la base de données) cependant, l'affichage sur la page ne se modifie qu'après un rechargement de la page.
