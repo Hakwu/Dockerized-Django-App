@@ -39,10 +39,6 @@ def loginPage(request):
     context = {}
     return render(request, 'accounts/login.html', context)
 
-def logoutPage(request):
-    logout(request)
-    return redirect(reverse(connexion))
-
 def profilPage(request):
     form = CreateUserForm()
     if request.method == "POST":
@@ -50,6 +46,7 @@ def profilPage(request):
         user = request.user
         u = User.objects.get(username=user)
         u.email = request.POST.get('email')
+        user.email = u.email
         u.save()
     context = {'form': form}
     return render(request, 'accounts/profile.html', context)

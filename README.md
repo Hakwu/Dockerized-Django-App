@@ -6,8 +6,4 @@ Pour lancer l'application :
 
 * aller sur un navigateur et taper le lien : http://localhost:8000/
 
-* Vous devriez tomber sur le site demandé
-
-- Il y a un point à souligner :
-
-* On peut bien modifier l'adresse mail (dans la base de données) cependant, l'affichage sur la page ne se modifie qu'après un rechargement de la page.
+L'application consiste à pouvoir s'inscrire, se connecter et pouvoir accéder à une page "profil" dans lequel il peut modifier son adresse email lorsqu'il appuie sur le bouton "modifier ses informations".
